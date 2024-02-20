@@ -437,7 +437,7 @@ export default {
         }
         document.title = `${
           this.cwd.replace(/.*\/(?!$)|\//g, "") || "/"
-        } - 文件库`;
+        } - OSS存储桶`;
       },
       immediate: true,
     },
